@@ -29,12 +29,22 @@ export default function Hero() {
           </div>
           <div className="absolute top-[20%] -left-[45%] -z-10">
             {/* Project Card */}
-            <ProjectCard/>
+            <ProjectCard
+              image="/project1.jpg"
+              title="Projeto 02"
+              clicks={10}
+              description="Descrição mais detalhada de como a aplicação funciona"
+            />
           </div>
 
           <div className="absolute -top-[5%] -left-[55%] -z-10">
             {/* Project Card */}
-            <ProjectCard/>
+            <ProjectCard
+              image="/project2.jpg"
+              title="Projeto 01"
+              clicks={15}
+              description="Descrição mais detalhada de como a aplicação funciona"
+            />
 
           </div>
         </div>

@@ -8,7 +8,7 @@ export default function TextInput(
       {...props}
       className={cn(
         `w-full p-3 bg-BACKGROUND-SECONDARY text-white placeholder:text-CONTENT-PLACEHOLDER rounded-xl
-       border border-transparent hover:border-BORDER-SECONDARY hover:text-CONTENT-BODY active:border-BORDER-TERTIARY
+       border-2 border-transparent focus:border-ACCENT-PURPLE hover:text-CONTENT-BODY active:border-ACCENT-PURPLE outline-none
       `,
         props.className
       )}
